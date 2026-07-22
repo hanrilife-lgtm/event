@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Свадьба Александра & Александра</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Частицы -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Прогресс-бар -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Логотип A&A -->
+    <div class="floating-logo">
+    </div>
+
+    <!-- Секции-истории -->
+    <div class="stories-wrapper">
+
+        <!-- СТОРИ 1: HERO -->
+        <section class="story" data-index="0">
+            <div class="story-content hero-story">
+                <div class="names">
+                    Александр <span class="amp">&amp;</span> Александра
+                </div>
+                <div class="sub-date">15 августа 2026</div>
+                <div class="invite-text">
+                    Мы будем счастливы разделить с вами<br />
+                    один из самых важных и трогательных <span>моментов</span> нашей жизни.
+                </div>
+            </div>
+        </section>
+
+        <!-- СТОРИ 2: Церемония -->
+        <section class="story" data-index="1" style="background-image: url('ceremony.png');">
+            <div class="story-overlay"></div>
+            <div class="story-content glass-card">
+                <h2>Торжественная церемония</h2>
+                <div class="info-row">
+                    <span class="label">Сбор гостей</span>
+                    <span class="value">14:30</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">Начало</span>
+                    <span class="value">14:45</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">Место</span>
+                    <span class="value">ЗАГС, Молодогвардейская 238</span>
+                </div>
+                <div class="dresscode-note">👔 Дресс-код: классический, элегантный</div>
+            </div>
+        </section>
+
+        <!-- СТОРИ 3: Банкет -->
+        <section class="story" data-index="2" style="background-image: url('banquet.png');">
+            <div class="story-overlay"></div>
+            <div class="story-content glass-card">
+                <h2>Праздничный банкет</h2>
+                <div class="info-row">
+                    <span class="label">Начало</span>
+                    <span class="value">16:00</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">Ресторан</span>
+                    <span class="value">«Петровский», Чапаевская 201</span>
+                </div>
+                <div class="invite-sub">
+                    Приглашаем разделить с нами радость этого особенного дня.
+                </div>
+            </div>
+        </section>
+
+        <!-- СТОРИ 4: Детали (3D-карточки) -->
+        <section class="story" data-index="3">
+            <div class="story-content details-grid">
+                <div class="info-card">
+                    <span class="icon">🕊️</span>
+                    <h3>Сбор гостей</h3>
+                    <div class="time">14:30</div>
+                    <div class="place"><strong>ЗАГС</strong><br />Молодогвардейская 238</div>
+                </div>
+                <div class="info-card">
+                    <span class="icon">💍</span>
+                    <h3>Церемония</h3>
+                    <div class="time">14:45</div>
+                    <div class="place"><strong>ЗАГС</strong><br />Молодогвардейская 238</div>
+                </div>
+                <div class="info-card">
+                    <span class="icon">👔</span>
+                    <h3>Дресс-код</h3>
+                    <div class="dresscode">
+                        Мы будем рады видеть вас<br />
+                        в <strong>праздничных нарядах</strong>:<br />
+                        классический стиль, элегантные<br />
+                        платья и костюмы.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СТОРИ 5: Финал -->
+        <section class="story" data-index="4">
+            <div class="story-content final-story">
+                <div class="final-heart">❤️</div>
+                <p>С любовью,</p>
+                <p class="final-names">Александр & Александра</p>
+                <p class="final-year">2026</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Свадебное приглашение · A&A</p>
+    </footer>
+</body>
+</html>
